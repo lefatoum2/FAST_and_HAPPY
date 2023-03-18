@@ -1,5 +1,5 @@
 from db.models import DbHouse
-from schemas import HouseBase
+from House_project.schemas import HouseBase
 from sqlalchemy.orm.session import Session
 
 

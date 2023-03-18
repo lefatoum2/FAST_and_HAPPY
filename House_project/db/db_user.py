@@ -1,8 +1,8 @@
 from sqlalchemy.orm.session import Session
-from schemas import UserBase
+from House_project.schemas import UserBase
 from db.models import DbUser
 from db.hash import Hash
-from fastapi import APIRouter, HTTPException, status
+from fastapi import HTTPException, status
 
 
 def create_user(db: Session, request: UserBase):

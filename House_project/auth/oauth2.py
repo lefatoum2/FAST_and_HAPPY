@@ -7,7 +7,7 @@ from sqlalchemy.orm import Session
 from db.database import get_db
 from fastapi.param_functions import Depends
 from fastapi import APIRouter, HTTPException, status
-from db import db_user
+from House_project.db import db_user
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="token")
 
