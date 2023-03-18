@@ -41,3 +41,8 @@ class PostDisplay(BaseModel):
 
     class Config():
         orm_mode = True
+
+
+class UserAuth(BaseModel):
+    id : int
+    username : str
