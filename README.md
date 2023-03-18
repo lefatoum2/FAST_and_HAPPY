@@ -26,4 +26,30 @@ def create(request: PostBase, db: Session = Depends(get_db), current_user: UserA
 ```
 
 ## 2. Regex <a class="anchor" id="regex"></a>
+
+```python
+from fastapi import APIRouter, Query, Path, Body
+from pydantic import BaseModel
+from typing import Optional, List, Dict
+...
+@router.post('/new/{id}/comment/{comment_id}')
+def create_comment(blog: BlogModel, id: int,
+                   comment_title: int = Query(None,
+                                              title='Id of the comment',
+                                              description='Some description for comment_id',
+                                              alias='commentId',
+                                              deprecated=True),
+                   content: str = Body(..., min_length=10, max_length=100, regex='^[a-z\s]*$'),
+                   v: Optional[List[str]] = Query(['1.0', '2.0', '3.0']),
+                   comment_id: int = Path(None, gt=5, le=10),
+                   ):
+    return {
+        'blog': blog,
+        'id': id,
+        'comment_title': comment_title,
+        'comment_id': comment_id,
+        'content': content,
+        'version': v
+    }
+```
 ## 3. Validator and Number Validators<a class="anchor" id="validator"></a>
