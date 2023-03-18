@@ -1,6 +1,6 @@
 # Fast_and_Happy
 
-
+![](https://static.hitek.fr/img/actualite/ill_m/357630542/walkerdiesel.jpg)
 * [1. Exceptions : HTTPException](#exceptions)
 * [2. Regex](#regex)
 * [3. Validator and Number Validators](#validator)
