@@ -7,5 +7,8 @@
 
 
 ## 1. Exceptions : HTTPException<a class="anchor" id="exception"></a>
+
+https://umbraco.com/knowledge-base/http-status-codes/
+
 ## 2. Regex <a class="anchor" id="regex"></a>
 ## 3. Validator and Number Validators<a class="anchor" id="validator"></a>
