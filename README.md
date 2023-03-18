@@ -52,4 +52,7 @@ def create_comment(blog: BlogModel, id: int,
         'version': v
     }
 ```
+
+https://www.oreilly.com/library/view/regular-expressions-cookbook/9781449327453/ch04s09.html
+
 ## 3. Validator and Number Validators<a class="anchor" id="validator"></a>
