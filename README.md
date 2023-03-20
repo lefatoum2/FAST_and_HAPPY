@@ -1,4 +1,4 @@
-# Fast_and_Happy
+# FastAPI
 
 ![](https://static.hitek.fr/img/actualite/ill_m/357630542/walkerdiesel.jpg)
 * [1. Exceptions : HTTPException](#exceptions)
