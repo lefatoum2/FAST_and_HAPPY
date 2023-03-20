@@ -1,13 +1,15 @@
-import random, string, shutil
+from auth.oauth2 import get_current_user
 from fastapi import APIRouter, Depends, status, UploadFile, File
-from sqlalchemy.orm import Session
-from routers.schemas import PostBase, PostDisplay, UserAuth
-from db.database import get_db
 from fastapi.exceptions import HTTPException
+from sqlalchemy.orm import Session
+from routers.schemas import PostBase, PostDisplay
+from db.database import get_db
 from db import db_post
 from typing import List
-from auth.oauth2 import get_current_user
-
+import random
+import string
+import shutil
+from routers.schemas import UserAuth
 
 router = APIRouter(
     prefix='/post',
@@ -21,7 +23,7 @@ image_url_types = ['absolute', 'relative']
 def create(request: PostBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):
     if not request.image_url_type in image_url_types:
         raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
-                            detail="Le paramètre de image_url_type peut seulement prendre une valeur absolue('absolute') ou relative('relative'). ")
+                            detail="Parameter image_url_type can only take values 'absolute' or 'relative'.")
     return db_post.create(db, request)
 
 
@@ -35,7 +37,7 @@ def upload_image(image: UploadFile = File(...), current_user: UserAuth = Depends
     letters = string.ascii_letters
     rand_str = ''.join(random.choice(letters) for i in range(6))
     new = f'_{rand_str}.'
-    filename = new.join(image.filename.rsplit('.',1))
+    filename = new.join(image.filename.rsplit('.', 1))
     path = f'images/{filename}'
 
     with open(path, "w+b") as buffer:
@@ -45,5 +47,5 @@ def upload_image(image: UploadFile = File(...), current_user: UserAuth = Depends
 
 
 @router.get('/delete/{id}')
-def delete(id: int , db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):
-    return db.post.delete(db, id, current_user.id)
+def delete(id: int, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):
+    return db_post.delete(db, id, current_user.id)
