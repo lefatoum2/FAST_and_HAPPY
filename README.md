@@ -1,6 +1,21 @@
 # FastAPI
 
 ![](https://media.vanityfair.fr/photos/60d3788d83e5ef95d4bb6a1f/16:9/w_1280,c_limit/fasthome_jpg_5704.jpg)
+
+# Api with authentication : step by step
+
+* [1. Project setup](#exceptions)
+* [2. Create a database or connect to a database](#exception)
+* [3. Database setup](#exception)
+* [4. Create User](#exception)
+* [5. Encrypt Password](#exception)
+* [6. Create models et schema](#exception)
+* [7. Create Endpoints](#exception)
+* [8. Authentication token generation](#exception)
+* [9. CORS](#exception)
+* [10. Testing](#exception)
+
+# Autres
 * [1. Exceptions : HTTPException](#exceptions)
 * [2. Regex](#regex)
 * [3. Validator and Number Validators](#validator)
