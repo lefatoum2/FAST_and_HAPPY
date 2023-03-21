@@ -6,7 +6,7 @@
 
 * [1. Project setup](#exceptions)
 * [2. Create a database or connect to a database](#exception)
-* [3. Database setup](#exception)
+* [3. Database setup(CRUD)](#exception)
 * [4. Create User](#exception)
 * [5. Encrypt Password](#exception)
 * [6. Create models et schema](#exception)
