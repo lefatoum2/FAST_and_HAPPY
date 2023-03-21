@@ -1,6 +1,6 @@
 # FastAPI
 
-![](https://static.hitek.fr/img/actualite/ill_m/357630542/walkerdiesel.jpg)
+![](https://media.vanityfair.fr/photos/60d3788d83e5ef95d4bb6a1f/16:9/w_1280,c_limit/fasthome_jpg_5704.jpg)
 * [1. Exceptions : HTTPException](#exceptions)
 * [2. Regex](#regex)
 * [3. Validator and Number Validators](#validator)
