@@ -20,7 +20,7 @@
 * [2. Regex](#regex)
 * [3. Validator and Number Validators](#validator)
 * [4. Cookies](#Cookies)
-* [5. Error Handling](#Error Handling)
+* [5. Error Handling](#ErrorHandling)
 
 
 ## 1. Exceptions : HTTPException<a class="anchor" id="exception"></a>
