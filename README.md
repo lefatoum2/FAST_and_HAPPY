@@ -9,7 +9,7 @@
 * [3. Database setup(CRUD)](#exception)
 * [4. Create User](#exception)
 * [5. Encrypt Password](#exception)
-* [6. Create models et schema](#exception)
+* [6. Create models and schema](#exception)
 * [7. Create Endpoints](#exception)
 * [8. Authentication token generation](#exception)
 * [9. CORS](#exception)
