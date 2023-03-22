@@ -6,14 +6,14 @@
 
 * [1. Project setup](#exceptions)
 * [2. Create a database or connect to a database](#exception)
-* [3. Database setup(CRUD)](#exception)
-* [4. Create User](#exception)
-* [5. Encrypt Password](#exception)
-* [6. Create models and schema](#exception)
-* [7. Create Endpoints](#exception)
-* [8. Authentication token generation](#exception)
-* [9. CORS](#exception)
-* [10. Testing](#exception)
+* [3. Create models and schema](#exception)
+* [4. Database setup(CRUD)](#exception)
+* [5. Create User](#exception)
+* [6. Encrypt Password](#exception)
+* [8. Create Endpoints](#exception)
+* [9. Authentication token generation](#exception)
+* [10. CORS](#exception)
+* [11. Testing](#exception)
 
 # Autres
 * [1. Exceptions : HTTPException](#exceptions)
