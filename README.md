@@ -1,9 +1,26 @@
 # FastAPI
 
-![](https://static.hitek.fr/img/actualite/ill_m/357630542/walkerdiesel.jpg)
+![](https://media.vanityfair.fr/photos/60d3788d83e5ef95d4bb6a1f/16:9/w_1280,c_limit/fasthome_jpg_5704.jpg)
+
+# Api with authentication : step by step
+
+* [1. Project setup](#exceptions)
+* [2. Create a database or connect to a database](#exception)
+* [3. Create models and schema](#exception)
+* [4. Database setup(CRUD)](#exception)
+* [5. Create User](#exception)
+* [6. Encrypt Password](#exception)
+* [8. Create Endpoints](#exception)
+* [9. Authentication token generation](#exception)
+* [10. CORS](#exception)
+* [11. Testing](#exception)
+
+# Autres
 * [1. Exceptions : HTTPException](#exceptions)
 * [2. Regex](#regex)
 * [3. Validator and Number Validators](#validator)
+* [4. Cookies](#Cookies)
+* [5. Error Handling](#ErrorHandling)
 
 
 ## 1. Exceptions : HTTPException<a class="anchor" id="exception"></a>

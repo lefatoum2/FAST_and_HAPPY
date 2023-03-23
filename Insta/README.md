@@ -36,3 +36,5 @@ class DbUser(Base):
     password = Column(String)
 
 ````
+
+![img1](FastAPI.png)
