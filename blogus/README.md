@@ -1,15 +1,11 @@
-Création de la database : database.py
-Création de l'user : db_user.py
-Encodade du mot de passe : hashing.py
-Création, affichage, suppression des posts : db_post.py
-Création et affichage des commentaires : db_comment.py
-Authentification : authentification.py et oauth2.py
-routers : comment.py , post.py , user.py
-Cors : main.py
-
-
-
-
+* [1. Création de la database : database.py](#Section_1)
+* [2. Création de l'user : db_user.py](#Section_2)  
+* [3. Encodade du mot de passe : hashing.py](#Section_3)  
+* [4. Création, affichage, suppression des posts : db_post.py](#Section_4)  
+* [5. Création et affichage des commentaires : db_comment.py](#Section_5)  
+* [6. Authentification : authentification.py et oauth2.py](#Section_6)  
+* [7. Routers : comment.py , post.py , user.py](#Section_7)  
+* [8. Cors : main.py](#Section_8)  
 
 
 ### Database
