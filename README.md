@@ -15,7 +15,7 @@
 * [10. CORS](#exception)
 * [11. Testing](#exception)
 
-# Autres
+# Another
 * [1. Exceptions : HTTPException](#exceptions)
 * [2. Regex](#regex)
 * [3. Validator and Number Validators](#validator)
