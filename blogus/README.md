@@ -1,3 +1,10 @@
+## 
+
+Contexte:
+Création d'une API avec l'outil FASTAPI avec authentification et token pour la gestion d'articles
+
+
+
 * [1. Création de la database : database.py](#Section_1)
 * [2. Création de l'user : db_user.py](#Section_2)  
 * [3. Encodade du mot de passe : hashing.py](#Section_3)  
